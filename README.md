@@ -20,77 +20,51 @@ An intelligent real-time chatbot built with **Flask (Python)** and **JavaScript 
 
 hack/ ├── ao_process/ │ ├── agent_process.py # Flask backend server │ ├── llm_support.py # LLM Client for generating responses ├── frontend/ │ ├── index.html # Frontend HTML │ ├── style.css # Styling for the chatbot UI │ └── script.js # Frontend JS for API calls ├── requirements.txt # Python dependencies └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
+project:
+  title: "AI Chatbot Web App"
+  description: "An intelligent, real-time AI chatbot built using Flask (Python) backend and HTML, CSS, JavaScript frontend."
 
-## 🚀 Getting Started
+getting_started:
+  - step: "🚀 Getting Started"
+    instructions:
+      - "Clone the Repository"
+      - "Install required Python packages:"
+      - "bash: pip install -r requirements.txt"
+      - "Run the Flask server:"
+      - "bash: cd ao_process"
+      - "bash: python agent_process.py"
+      - "Server will run on: http://localhost:5000/"
+      - "Set up the frontend in a new terminal:"
+      - "bash: cd frontend"
+      - "Open index.html in your browser"
+      - "Or use Live Server extension in VS Code for easier browsing."
 
-### 1. Clone the Repository
+requirements:
+  - "⚙️ Requirements"
+  - "Python 3.8+"
+  - "Flask"
+  - "Flask-CORS"
+  - "Web Browser (Chrome, Firefox, etc.)"
 
-2. Set up the backend
-Install required Python packages:
+how_it_works:
+  - "🛠️ How It Works"
+  - "🧑 User types a message."
+  - "📡 Message is sent to the Flask backend via a POST request."
+  - "🤖 LLM processes the message and generates a smart reply."
+  - "🧑‍💻 Frontend displays the reply in the chat interface."
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the Flask server:
+future_improvements:
+  - "💡 Future Improvements"
+  - "Add persistent chat history"
+  - "Integrate real LLM APIs (OpenAI / Gemini / LLaMA)"
+  - "Deploy the backend and frontend online"
+  - "Improve UI with animations, avatars, and themes"
 
-bash
-Copy
-Edit
-cd ao_process
-python agent_process.py
-Server will run on:
-http://localhost:5000/
+contributing:
+  - "🤝 Contributing"
+  - "Pull requests and suggestions are welcome! Feel free to fork and improve the project."
 
-3. Set up the frontend
-In a new terminal:
-
-bash
-Copy
-Edit
-cd frontend
-# Open index.html in your browser
-Or use Live Server extension in VS Code for easier browsing.
-
-⚙️ Requirements
-Python 3.8+
-
-Flask
-
-Flask-CORS
-
-Web Browser (Chrome, Firefox, etc.)
-
-🛠️ How It Works
-🧑 User types a message.
-
-📡 Message is sent to the Flask backend via a POST request.
-
-🤖 LLM processes the message and generates a smart reply.
-
-🧑‍💻 Frontend displays the reply in the chat interface.
-
-💡 Future Improvements
-Add persistent chat history
-
-Integrate real LLM APIs (OpenAI / Gemini / LLaMA)
-
-Deploy the backend and frontend online
-
-Improve UI with animations, avatars, and themes
-
-🤝 Contributing
-Pull requests and suggestions are welcome!
-Feel free to fork and improve the project.
-
-📜 License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
+license:
+  - "📜 License"
+  - "This project is licensed under the MIT License."
