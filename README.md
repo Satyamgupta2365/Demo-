@@ -1,40 +1,36 @@
-🤖 AI Chatbot Web App
-An intelligent real-time chatbot built with Flask (Python) and JavaScript frontend, powered by a Large Language Model (LLM). Designed for hackathons to provide smart, instant responses to user queries!
+# 🤖 AI Chatbot Web App
 
-✨ Features
-🔥 Real-time interaction between user and AI chatbot
+An intelligent real-time chatbot built with **Flask (Python)** and **JavaScript frontend**, powered by a **Large Language Model (LLM)**. Designed for hackathons to provide smart, instant responses to user queries!
 
-🧠 LLM (Large Language Model) integration for smart replies
+---
 
-⚡ Lightweight Flask backend
+## ✨ Features
 
-🖥️ Clean JavaScript-based frontend
+- 🔥 Real-time interaction between user and AI chatbot
+- 🧠 LLM (Large Language Model) integration for smart replies
+- ⚡ Lightweight Flask backend
+- 🖥️ Clean JavaScript-based frontend
+- 🔄 API communication using Fetch API
+- 🔓 CORS enabled for frontend-backend communication
+- 🎯 Easy to customize with any LLM provider (OpenAI, LLaMA, Gemini, etc.)
 
-🔄 API communication using Fetch API
+---
 
-🔓 CORS enabled for frontend-backend communication
+## 📁 Project Structure
 
-🎯 Easy to customize with any LLM provider (OpenAI, LLaMA, Gemini, etc.)
+hack/ ├── ao_process/ │ ├── agent_process.py # Flask backend server │ ├── llm_support.py # LLM Client for generating responses ├── frontend/ │ ├── index.html # Frontend HTML │ ├── style.css # Styling for the chatbot UI │ └── script.js # Frontend JS for API calls ├── requirements.txt # Python dependencies └── README.md # Project documentation
 
-📁 Project Structure
-bash
+yaml
 Copy
 Edit
-hack/
-├── ao_process/
-│   ├── agent_process.py       # Flask backend server
-│   ├── llm_support.py          # LLM Client for generating responses
-├── frontend/
-│   ├── index.html              # Frontend HTML
-│   ├── style.css               # Styling for the chatbot UI
-│   └── script.js               # Frontend JS for API calls
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
-🚀 Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/your-username/your-repo.git
 cd hack
 2. Set up the Backend
@@ -68,7 +64,7 @@ Flask
 
 Flask-CORS
 
-HTML, CSS, JavaScript (no extra libraries required for frontend)
+HTML, CSS, JavaScript
 
 🛠️ How it Works
 The user types a message in the frontend.
