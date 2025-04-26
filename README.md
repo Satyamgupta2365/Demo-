@@ -30,11 +30,8 @@ Edit
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd hack
-2. Set up the Backend
-Install dependencies:
+2. Set up the backend
+Install required Python packages:
 
 bash
 Copy
@@ -47,7 +44,10 @@ Copy
 Edit
 cd ao_process
 python agent_process.py
-3. Set up the Frontend
+Server will run on:
+http://localhost:5000/
+
+3. Set up the frontend
 In a new terminal:
 
 bash
@@ -55,7 +55,7 @@ Copy
 Edit
 cd frontend
 # Open index.html in your browser
-(You can also serve it with a simple local server like Live Server in VS Code.)
+Or use Live Server extension in VS Code for easier browsing.
 
 ⚙️ Requirements
 Python 3.8+
@@ -64,28 +64,33 @@ Flask
 
 Flask-CORS
 
-HTML, CSS, JavaScript
+Web Browser (Chrome, Firefox, etc.)
 
-🛠️ How it Works
-The user types a message in the frontend.
+🛠️ How It Works
+🧑 User types a message.
 
-The frontend sends the message to the Flask backend using fetch().
+📡 Message is sent to the Flask backend via a POST request.
 
-The backend processes it with the LLM and sends the bot's reply.
+🤖 LLM processes the message and generates a smart reply.
 
-The frontend displays the response in the chat window.
+🧑‍💻 Frontend displays the reply in the chat interface.
 
 💡 Future Improvements
-Add conversation history
+Add persistent chat history
 
-Deploy on Render/Vercel
+Integrate real LLM APIs (OpenAI / Gemini / LLaMA)
 
-Add user authentication
+Deploy the backend and frontend online
 
-Improve UI/UX with animations and bot avatars
+Improve UI with animations, avatars, and themes
 
 🤝 Contributing
-Feel free to open issues or pull requests to improve the project!
+Pull requests and suggestions are welcome!
+Feel free to fork and improve the project.
 
 📜 License
-This project is under MIT License.
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
